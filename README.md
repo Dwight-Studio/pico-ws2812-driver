@@ -37,7 +37,7 @@ pico_sdk_init()
 pico_ws2812_driver_init()
 
 add_executable(test main.c)
-target_link_libraries(test ws2812)
+target_link_libraries(test pico_stdlib ws2812)
 pico_add_extra_outputs(test)
 ```
 
