@@ -1,12 +1,12 @@
-## Pi Pico WS2812 Driver
+# Pi Pico WS2812 Driver
 
-# About
+## About
 
 Simple Pi Pico driver for the C/C++ SDK to communicate with WS2812 LEDs.
 This driver is based on
 the [`pico-examples/pio/ws2812`](https://github.com/raspberrypi/pico-examples/blob/master/pio/ws2812/) by Raspberry Pi.
 
-# Quick start
+## Quick start
 
 The driver can be imported using a cmake script (similar to the [`pico-sdk`](https://github.com/raspberrypi/pico-sdk/)).
 
@@ -46,7 +46,7 @@ need to set `PICO_WS2812_DRIVER_PATH`. Otherwise, uncomment the `set` directive 
 
 5. Import `"ws2812.h"` and use the driver in your code (see the [test example](#test-example))
 
-# Test example
+## Test example
 
 After setting up your cmake project, you can test the driver. Here is simple example. Note that the used GPIO Pin is 23,
 which is the default pin on YD-RP2040 boards.
